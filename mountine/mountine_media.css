@@ -1,0 +1,93 @@
+@media screen and (max-width:1575px) {
+    .seqtion_1 h1 {
+        font-size: 80px;
+        padding: 0px 6.5%;
+    }
+}
+@media screen and (max-width:1200px) {
+    .seqtion_1 h1 {
+        font-size: 60px;
+        padding: 0px 20%;
+    }
+
+    .seqtion_1 p {
+        font-size: 20px;
+        padding: 0px 40px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .seqtion_1 h1 {
+        font-size: 55px;
+        padding: 0px 7%;
+    }
+
+    .seqtion_1 {
+        min-height: 65vh;
+    }
+
+
+}
+
+@media screen and (max-width:575px) {
+    .seqtion_1 h1 {
+        font-size: 55px;
+        padding: 0px 3%;
+    }
+
+    .header {
+        height: 80%;
+    }
+
+
+}
+
+@media screen and (max-width:370px) {
+    .seqtion_1 h1 {
+        font-size: 40px;
+        padding: 0px 10px;
+    }
+
+    .seqtion_1 {
+        min-height: 60vh;
+    }
+
+    .header a {
+        font-size: 25px;
+    }
+
+    .header {
+        gap: 10%;
+    }
+
+    .maniu>div {
+        width: 30px;
+        height: 3.5px;
+    }
+}
+
+@media screen and (max-width:300px) {
+    .seqtion_1 {
+        min-height: 50vh;
+    }
+
+    .seqtion_1 h1 {
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+
+    .seqtion_1 p {
+        font-size: 18px;
+        padding: 0px 30px;
+    }
+
+    .header {
+        gap: 8%;
+    }
+
+    .maniu>div {
+        width: 25px;
+        height: 3.5px;
+        padding-right: 3px;
+    }
+}

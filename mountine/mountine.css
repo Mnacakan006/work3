@@ -1,0 +1,108 @@
+@font-face {
+    font-family: font;
+    src: url(./fonts/ChopinScript.ttf);
+}
+body{
+    overflow: hidden;
+    overflow-y: scroll;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+.header {
+    position: sticky;
+    top: 0px;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(210, 210, 210);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20%;
+
+
+
+}
+
+.header>a {
+    font-weight: 30px;
+    text-decoration: none;
+    font-family: font;
+    font-size: 40px;
+    font-weight: 1000;
+    padding: 4px 12px;
+    box-shadow: 0px 0px transparent;
+    transition: .4s;
+}
+
+.header>a:hover {
+    color: rgb(255, 94, 0);
+    cursor: pointer;
+
+}
+
+
+
+.maniu {
+
+
+
+    cursor: pointer;
+}
+
+.maniu>div {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    box-shadow: 0px 0px transparent;
+    margin: 6px 0px;
+    transition: .4s;
+}
+
+.maniu:hover div {
+    background-color: rgb(255, 94, 0);
+    box-shadow: 0px 0px 3px black;
+}
+
+/* seqtion_1 */
+
+.seqtion_1 {
+    background-image: url(./mount_bg.jpeg);
+    background-color: rgba(0, 0, 0, 0.645);
+    background-size: cover;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    filter: grayscale(60%);
+    -webkit-filter: grayscale(60%);
+}
+
+.seqtion_1 h1 {
+    color: rgb(255, 255, 255);
+    font-size: 90px;
+
+    text-align: center;
+    padding: 10px 500px;
+
+}
+
+.seqtion_1 p {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    /* padding: 0px 570px; */
+    max-width: 740px;
+    font-weight: 900;
+}
+
+
+
+/* https://nicepage.com/html-templates/preview/guided-backpacking-trips-19196?device=desktop */
